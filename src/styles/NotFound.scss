@@ -1,0 +1,18 @@
+@import 'vars';
+
+
+body,html{
+    background-color: #f7f9fb;
+}
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+}
+.NotFound{
+   background-color: red;  
+   text-align: center;
+   width: 240px;
+   font-size: x-large;
+}

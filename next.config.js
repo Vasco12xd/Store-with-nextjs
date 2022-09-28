@@ -1,6 +1,6 @@
 module.exports = {
   reactStrictMode: true,
-  env: {
+  /* env: {
     customKey: 'customValue',    
   },
   basePath: '/dist',
@@ -13,6 +13,6 @@ module.exports = {
         permanent: true,
       },
     ]
-  }
+  } */
 }
 
