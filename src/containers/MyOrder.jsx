@@ -3,6 +3,7 @@ import OrderItem from '@components/OrderItem';
 import AppContext from '@context/AppContext';
 import arrow from '@icons/flechita.svg';
 import styles from '@styles/MyOrder.module.scss';
+import Link from 'next/link';
 
 const MyOrder = () => {
 	const { state, toggleOrder } = useContext(AppContext);
@@ -32,9 +33,9 @@ const MyOrder = () => {
 						</p>
 						<p>${sumTotal()}</p>
 					</div>
-					<button className={styles['primary-button']}>
+					<Link href="/checkout" className={styles['primary-button']}>
 						Checkout
-					</button>
+					</Link>
 				</div>
 			</div>
 		</aside>

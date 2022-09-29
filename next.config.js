@@ -1,7 +1,7 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ['paceimg.com'],
+    domains: ['placeimg.com', 'api.lorem.space'],
   },
   /* env: {
     customKey: 'customValue',    
